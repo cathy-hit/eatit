@@ -30,37 +30,24 @@ get_header();
 
       <div class="container py-5">
 
-        <div class="row flex-md-row-reverse">
+        <div class="row no-gutters mb-4">
 
-          <div class="aside-category col mb-4">
-            
-            <ul class="bg-light p-3">
+          <?php while (have_posts()) : the_post(); ?>
 
-              <?php wp_list_categories( array(
-                'child_of' => 4,
-                'title_li' => '<h3>' . __( 'Categories' ) . '</h3>'
-              ) ); ?>
-              
-            </ul>
-
-          </div>
-
-          <div class="col-md-8 col-lg-9">
-
-            <?php while (have_posts()) : the_post(); ?>
+            <div class="col-md-6 col-lg-4">
 
               <?php get_template_part( 'template-parts/content-archive', get_post_type() ); ?>
 
-            <?php endwhile; ?>
+            </div>
 
-          </div>
+          <?php endwhile; ?>
 
         </div><!-- .row -->
 
         <?php the_posts_pagination(); ?>
 
       </div><!-- .container -->
-    
+
     </section>
 
   <?php else : ?>

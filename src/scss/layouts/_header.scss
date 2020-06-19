@@ -1,3 +1,14 @@
-.navbar-brand img {
-  width: 150px;
+.main-header {
+    background: url(../images/slider-EATIT1.png) left center;
+    background-size: cover;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.home .main-header {
+    background: url(../images/slider-EATIT3.png) top center;
+    min-height: calc(100vh - 90px);
+    text-align: center;
 }

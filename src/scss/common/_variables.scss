@@ -1,15 +1,37 @@
-$orange: #D54414;
-$blue: #278BBF;
-$white: #fff;
-$primary: $orange;
-$secondary: $blue;
-$font-family-base: 'Titillium Web',
+// Colors
+$primary: #DB4068;
+$white: #ffffff;
+$light: #F8F8F8;
+$dark: #4D4D4D;
+// Fonts
+$font-family-base: 'Roboto',
 "Helvetica Neue",
 Helvetica,
 Arial,
 sans-serif;
+// Colors
+$red: #db4068;
+$dark-red: #9c2a46;
+$green: #7aba4c;
+$dark-green: #588835;
+$link-color: $red;
+$navbar-light-color: $red;
+$navbar-light-hover-color: $dark-red;
+$navbar-light-active-color: $dark-red;
+$body-color: $dark;
+
+/* Misc */
+
+$enable-rounded: false;
+$border-width: 2px;
+// Navbar
 $navbar-toggler-font-size: 1.75rem;
 $navbar-light-color: $primary;
 $navbar-light-hover-color: $primary;
 $navbar-light-active-color: $primary;
 $navbar-light-toggler-border-color: $white;
+// Layout
+$max-width: 1280px;
+$bp-medium: 768px;
+$bp-large: 992px;
+$marge: 15px;

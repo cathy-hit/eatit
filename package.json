@@ -32,10 +32,13 @@
     "gulp-uglify": "^3.0.2",
     "gulp-wp-pot": "^2.3.5",
     "jquery": "^3.4.1",
+    "owl.carousel": "^2.3.4",
     "popper.js": "^1.16.0",
     "vinyl-named": "^1.1.0",
     "webpack-stream": "^5.2.1",
     "yargs": "^14.2.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "select2": "^4.0.13"
+  }
 }

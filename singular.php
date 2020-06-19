@@ -24,4 +24,6 @@ get_header();
 
 </main>
 
+<?php get_sidebar('news'); ?>
+
 <?php get_footer() ?>
