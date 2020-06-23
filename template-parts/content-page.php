@@ -20,7 +20,7 @@
       <h1 class="page-title entry-title"><?php the_title(); ?></h1>
 
       <?php if(is_front_page()) : ?>
-        <a href="<?= get_post_type_archive_link('spot'); ?>" class="btn btn-outline-light mt-4"><?php _e('Tous les spots', 'startheme'); ?></a>
+        <a href="<?= get_post_type_archive_link('restaurant'); ?>" class="btn btn-outline-light mt-4"><?php _e('Tous les restaurants', 'startheme'); ?></a>
       <?php endif; ?>
 
     </div>

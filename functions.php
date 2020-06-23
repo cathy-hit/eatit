@@ -33,7 +33,9 @@ add_action('after_setup_theme', function () {
     array(
       'primary'           => __('Navigation principale', 'startheme'),
       'footer_navigation' => __('Navigation pied de page', 'startheme'),
-      'social' => __('Navigation réseaux sociaux', 'startheme')
+      'quartier'           => __('menu quartier', 'startheme'),
+      'style' => __('menu style', 'startheme'),
+      'specialite' => __('menu specialite', 'startheme')
     )
   );
 
@@ -49,8 +51,8 @@ add_action('widgets_init', function () {
   $config = [
     'before_widget' => '<section class="widget %1$s %2$s">',
     'after_widget'  => '</section>',
-    'before_title'  => '<h3 class="widget-title h3">',
-    'after_title'   => '</h3>'
+    'before_title'  => '<h2 class="widget-title h2">',
+    'after_title'   => '</h2>'
   ];
   register_sidebar([
     'name' => __('Zone droite', 'startheme') . ' ' . 1,

@@ -23,7 +23,7 @@ $lastposts = get_posts( array(
 
     <header class="sidebar-header d-flex flex-wrap justify-content-between align-items-start">
       <h2 class="sidebar-title"><?php _e('Autres restaurants', 'startheme'); ?></h2> 
-      <a href="<?= get_post_type_archive_link('spot'); ?>" class="btn btn-outline-primary"><?php _e('Tous les restaurants', 'startheme'); ?></a>
+      <a href="<?= get_post_type_archive_link('restaurant'); ?>" class="btn btn-outline-primary"><?php _e('Tous les restaurants', 'startheme'); ?></a>
     </header>
 
     <div class="row no-gutters"> 

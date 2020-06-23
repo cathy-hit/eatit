@@ -50,7 +50,25 @@
           'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
           'walker'          => new WP_Bootstrap_Navwalker(),
         ) );
-      
+        wp_nav_menu( array(
+        'theme_location'  => 'style',
+          'menu_class'      => 'navbar-nav menu-style',
+          'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
+          'walker'          => new WP_Bootstrap_Navwalker(),
+        ) );
+        wp_nav_menu( array(
+        'theme_location'  => 'specialite',
+          'menu_class'      => 'navbar-nav menu-specialite',
+          'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
+          'walker'          => new WP_Bootstrap_Navwalker(),
+        ) );
+        wp_nav_menu( array(
+        'theme_location'  => 'quartier',
+          'menu_class'      => 'navbar-nav menu-quartier',
+          'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
+          'walker'          => new WP_Bootstrap_Navwalker(),
+        ) );
+
         get_search_form();
         ?>
       </div>

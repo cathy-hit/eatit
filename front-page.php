@@ -35,73 +35,6 @@ get_header();
         endif; ?>
 
 
-            <!-- SECTION DVAN -->
-
-            <div class="section-dvan">
-                <h1>DE VOUS A NOUS</h1>
-                <form>
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Pour recevoir la Newsletter</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Votre E-mail">
-                    </div>
-
-                    <button type="submit" class="btn btn-primary">VALIDATION</button>
-
-                    <p>Pour recevoir les offres et bénéficiez des bons plans d'EAT IT</p>
-                    <a href="#" class="more">Je crée mon compte</a>
-                </form>
-            </div>
-
-            <!--  SECTION COMMANDE -->
-            <div class="section-commande">
-                <h1>Commandez en 5 étapes ...</h1>
-                <div class="commande-etapes">
-                <img src="<?= get_template_directory_uri(); ?>/dist/images/commande-5etapes.png" alt="<?= $choice ?>
-                                             
-                </div>
-
-
-            </div>
-        </div>
-        <!--    SECTION VALEURS -->
-        <div class="section-valeurs">
-            <h1>nos valeurs</h1>
-
-            <section class="services container">
-
-                <div class="services-inner">
-
-                    <div class="services-col">
-                        <article class="services-article">
-                            <img src="./images/resp-EATIT.png" alt="responsables EATIT">
-                            <h5>ECOLOGIQUE ET RAPIDE</h5>
-                            <p>Nos livraisons se font exclusivement à vélos ou en triporteurs. Mieux que le timbre vert, le coursier à vélo. Début mars 2018, trois jeunes rennais : Guillaume, Axel et Simon, amis depuis le bac à sable, décident de se mettre
-                                à leur compte. L’idée première est de créer une société de livraison classique de repas avec scooter. Mais c’est bien connu, quand c’est classique, c’est chiant ! Et puis, ils adorent le sport ; alors, pourquoi ne pas lier
-                                l’utile à l’agréable ?</p>
-                        </article>
-                    </div>
-
-                    <div class="services-col">
-                        <article class="services-article">
-                            <img src="./images/partenaires locaux.png" alt="carte loclisant les partenaires locaux">
-                            <h5>NOS PARTENAIRES</h5>
-                            <p>Des restaurants locaux livrés en 30 à 45 minutes après votre commande</p>
-
-                        </article>
-                    </div>
-
-                    <div class="services-col">
-                        <article class="services-article">
-                            <img src="./images/porteur1_EATIT.png" alt="livreur EATIT en course">
-                            <h5>NOS BIKERS</h5>
-                            <p>Vous souhaitez continuer de découvrir votre ville, tout en pratiquant du sport et en choisissant vos horaires : rejoignez-nous</p>
-
-                        </article>
-                    </div>
-                    <a href="#" class="more">En savoir plus</a>
-                </div>
-
-        </div>
         <!-- SECTION BLOG -->
         <div class="section-blog">
             <h1>du côté du blog</h1>
@@ -166,7 +99,7 @@ get_header();
   </div><!-- .front-restaurants_grid -->
 
   <div class="text-center my-5">
-    <a href="<?= get_post_type_archive_link('spot'); ?>" class="btn btn-outline-primary"><?php _e('Tous les restaurants', 'startheme'); ?></a>
+    <a href="<?= get_post_type_archive_link('restaurant'); ?>" class="btn btn-outline-primary"><?php _e('Tous les restaurants', 'startheme'); ?></a>
   </div>
 
 </section><!-- .front-resturants -->
