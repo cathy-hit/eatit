@@ -9,27 +9,27 @@ $exclude = is_front_page() ? get_option( 'sticky_posts' ) : [get_the_ID()];
 
 $lastnews = get_posts( array(
   'numberposts' => 5,
-  'category' => 8,
+  'avis' => 8,
   'exclude' => $exclude
 ));
 
 ?>
 
 
-<section class="sidebar-lastnews bg-light py-5">
+<section class="sidebar-lastavis bg-light py-5">
 
   <div class="container">
 
     <header class="sidebar-header d-flex flex-wrap justify-content-between align-items-start">
-      <h2 class="sidebar-title"><?php _e('Dernières actualités', 'startheme'); ?></h2>
-      <a href="<?= esc_url( get_category_link( 8 ) ); ?>" class="btn btn-outline-primary"><?php _e('Toutes les actualités', 'startheme'); ?></a>
+      <h2 class="sidebar-title"><?php _e('Derniers avis client', 'startheme'); ?></h2>
+      <a href="<?= esc_url( get_category_link( 8 ) ); ?>" class="btn btn-outline-primary"><?php _e('Tous les avis clients', 'startheme'); ?></a>
     </header>
 
-    <?php if($lastnews) : ?>
+    <?php if($lastavis) : ?>
 
-      <div class="carousel-news owl-carousel px-sm-4 mt-5 mt-sm-4">
+      <div class="carousel-avis owl-carousel px-sm-4 mt-5 mt-sm-4">
 
-        <?php foreach( $lastnews as $post ) : 
+        <?php foreach( $lastavis as $post ) : 
           setup_postdata( $post ); ?>
 
           <article <?php post_class('card border-0'); ?>>
@@ -51,10 +51,10 @@ $lastnews = get_posts( array(
         <?php endforeach; 
           wp_reset_postdata(); ?>
 
-      </div><!-- .carousel-news -->
+      </div><!-- .carousel-aviss -->
 
     <?php endif; ?>
 
   </div><!-- .container -->
 
-</section><!-- .sidebar-lastspots -->
+</section><!-- .sidebar-lastrestaurants -->

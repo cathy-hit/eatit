@@ -10,7 +10,7 @@
 
 ?>
 
-<article <?php post_class('card-spot'); ?>>
+<article <?php post_class('card-restaurant'); ?>>
 
   <figure class="card-figure mb-0">
     <a href="<?php the_permalink(); ?>" title="<?php _e( 'Lire la suite', 'startheme' ) ?>">

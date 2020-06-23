@@ -16,6 +16,7 @@
 	<?php wp_head(); ?>
 </head>
 
+
 <body <?php body_class(); ?>>
 
   <nav class="navbar navbar-expand-md navbar-light bg-white sticky-top main-navbar">
@@ -41,6 +42,7 @@
           'menu_class'      => 'navbar-nav main-menu',
           'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
           'walker'          => new WP_Bootstrap_Navwalker(),
+          'depth' => 2
         ) );
         wp_nav_menu( array(
           'theme_location'  => 'social',
@@ -48,6 +50,13 @@
           'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
           'walker'          => new WP_Bootstrap_Navwalker(),
         ) );
+      
+        get_search_form();
+        ?>
+      </div>
+    </div>
+  </nav>
+
         ?>
       </div>
 

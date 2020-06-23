@@ -1,5 +1,5 @@
 .main-header {
-    background: url(../images/slider-EATIT3.png) left center;
+    background-color: $green;
     background-size: cover;
     min-height: 250px;
     display: flex;
@@ -9,6 +9,7 @@
 
 .home .main-header {
     background: url(../images/slider-EATIT1.png) top center;
+    background-size: cover;
     min-height: calc(100vh - 90px);
     text-align: center;
 }

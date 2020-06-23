@@ -1,13 +1,13 @@
-.single-spot {
+.single-restaurant {
     .entry-content {
         font-size: 1.375em;
     }
-    .spot-niveau {
+    .restaurant-note {
         h3::after {
             content: none;
         }
     }
-    .planche {
+    .pouce {
         margin: 0 0.25rem;
         &.over-level {
             filter: grayscale(1);

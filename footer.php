@@ -9,7 +9,7 @@
  */
 ?>
 
-<footer class="page-footer bg-dark text-white pt-5 pb-3">
+<footer class="page-footer bg-dark-green text-white pt-5 pb-3">
 
   <div class="container">
 

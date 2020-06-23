@@ -32,13 +32,13 @@ get_header();
 
         <div class="row flex-md-row-reverse">
 
-          <div class="aside-category col mb-4">
+          <div class="aside-specialites col mb-4">
             
             <ul class="bg-light p-3">
 
               <?php wp_list_categories( array(
                 'child_of' => 4,
-                'title_li' => '<h3>' . __( 'Categories' ) . '</h3>'
+                'title_li' => '<h3>' . __( 'specialites' ) . '</h3>'
               ) ); ?>
               
             </ul>

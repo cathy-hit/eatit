@@ -22,8 +22,9 @@ get_header();
     <?php endwhile; 
         endif; ?>
 
+
 </main>
 
-<?php get_sidebar('avis'); ?>
+<?php get_sidebar('restaurants'); ?>
 
 <?php get_footer() ?>

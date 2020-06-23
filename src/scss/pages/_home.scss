@@ -6,11 +6,11 @@
     }
 }
 
-.front-spots_grid {
+.front-restaurant_grid {
     @include media-breakpoint-up(sm) {
         display: flex;
         flex-wrap: wrap;
-        .card-spot {
+        .card-restaurant {
             flex-basis: 50%;
             &:nth-of-type(5) {
                 flex-basis: 100%;
@@ -18,7 +18,7 @@
         }
     }
     @include media-breakpoint-up(md) {
-        .card-spot {
+        .card-restaurant {
             flex-basis: 33.33%;
             &:nth-of-type(n + 4) {
                 flex-basis: 50%;

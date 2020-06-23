@@ -1,4 +1,4 @@
-.category .entry-archive-content {
+.specialite .entry-archive-content {
     display: flex;
     flex-direction: column;
     .entry-title {
@@ -33,29 +33,13 @@
             color: $white;
             background-color: $primary;
         }
-        .next {
-            font-size: 0;
-            &::before {
-                content: "\f105";
-                font-size: 0.875rem;
-                font-family: ForkAwesome;
-            }
-        }
-        .prev {
-            font-size: 0;
-            &::before {
-                content: "\f104";
-                font-size: 0.875rem;
-                font-family: ForkAwesome;
-            }
-        }
     }
 }
 
 
 /* Aside */
 
-.aside-categories {
+.aside-speciliates {
     ul {
         list-style: none;
         padding: 0;
