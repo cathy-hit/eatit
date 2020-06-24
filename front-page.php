@@ -35,47 +35,6 @@ get_header();
         endif; ?>
 
 
-        <!-- SECTION BLOG -->
-        <div class="section-blog">
-            <h1>du côté du blog</h1>
-
-            <section class="blog container">
-
-                <div class="blog-inner">
-
-                    <div class="blog-col">
-                        <article class="blog-article">
-                            <img src="./images/agathe280x280.png" alt="jeune femme prénommée Agathe">
-                            <p>C'est pratique et plus rapide qu'un coursier en scooter ! En plus, je me dis que c'est ma petite contribution pour sauver la planète, mon côté écolo dans l'âme. Vive le vélo, vive EAT IT !!</p>
-                            <a href="#" class="more">En savoir plus</a>
-                        </article>
-                    </div>
-
-                    <div class="blog-col">
-                        <article class="blog-article">
-                            <img src="./images/gaspard-400x400.png" alt="jeune homme en costume">
-                            <p>Célibataire et très actif, je n'ai pas le courages de me préparer à manger le soir donc je commande régulièrement. Avec EAT IT, je suis toujours livré dans la tranche horaire que je demande et je me régale sans même bouger
-                                de mon canapé : c'est cool !!</p>
-                            <a href="#" class="more">En savoir plus</a>
-                        </article>
-                    </div>
-
-                    <div class="blog-col">
-                        <article class="blog-article">
-                            <img src="./images/martine-925x615.png" alt="jeune femme assise sur un banc">
-                            <h5>NOS BIKERS</h5>
-                            <p>On me sollicite régulièrement pour faire livrer des repas pour les réunions des commerciaux. Avant je prenais un seul traiteur. Maintenant avec le compte société EAT IT, chaque convive choisi son repas : tout le monde est ravi
-                                !
-                            </p>
-                            <a href="#" class="more">En savoir plus</a>
-                        </article>
-                    </div>
-
-                </div>
-
-
-
-        </div>
 
 </main>
 
@@ -121,6 +80,6 @@ get_header();
 
 </section><!-- .sticky-post -->
 
-<?php get_sidebar('avis'); ?>
+
 
 <?php get_footer() ?>

@@ -9,7 +9,7 @@ $exclude = is_front_page() ? get_option( 'sticky_posts' ) : [get_the_ID()];
 
 $lastnews = get_posts( array(
   'numberposts' => 5,
-  'avis' => 8,
+  'avis' => 39,
   'exclude' => $exclude
 ));
 

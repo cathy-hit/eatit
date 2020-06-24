@@ -40,6 +40,7 @@ add_action('after_setup_theme', function () {
   );
 
   // Custom Image sizes
+  add_image_size('thumb-small', 350, 210, true);
   add_image_size('thumb-medium', 555, 410, true);
   add_image_size('thumb-large', 1920, 1080, true);
 });
