@@ -16,11 +16,6 @@ $frontrestaurants = get_posts( array(
   'orderby' => 'rand',
 ));
 
-$frontfocus = get_posts( array(
-  'posts_per_page' => 1,
-  'post__in' => get_option( 'sticky_posts' ),
-  'ignore_sticky_posts' => 1
-));
 
 get_header();
 ?>
@@ -61,7 +56,7 @@ get_header();
     <a href="<?= get_post_type_archive_link('restaurant'); ?>" class="btn btn-outline-primary"><?php _e('Tous les restaurants', 'startheme'); ?></a>
   </div>
 
-</section><!-- .front-resturants -->
+</section><!-- .front-restaurants -->
 
 <section class="sticky-post container my-5 py-5">
 

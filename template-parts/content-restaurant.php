@@ -14,8 +14,6 @@ $adress = get_field_object('adress');
 $horaire = get_field('horaire');
 $carte = get_field('carte');
 $adresse_url = get_field('adresse_url');
-$menu1 = get_field_object('menu1');
-$menu2 = get_field_object('menu2');
 $prix = get_field_object('prix');
 
 

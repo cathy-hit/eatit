@@ -24,6 +24,6 @@ get_header();
 
 </main>
 
-<?php get_sidebar('avis'); ?>
+
 
 <?php get_footer() ?>

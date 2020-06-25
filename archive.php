@@ -32,19 +32,6 @@ get_header();
 
         <div class="row flex-md-row-reverse">
 
-          <div class="aside-specialites col mb-4">
-            
-            <ul class="bg-light p-3">
-
-              <?php wp_list_categories( array(
-                'child_of' => 4,
-                'title_li' => '<h3>' . __( 'specialites' ) . '</h3>'
-              ) ); ?>
-              
-            </ul>
-
-          </div>
-
           <div class="col-md-8 col-lg-9">
 
             <?php while (have_posts()) : the_post(); ?>
