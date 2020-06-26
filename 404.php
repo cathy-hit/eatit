@@ -13,10 +13,20 @@
 get_header();
 ?>
 
-<main>
+<main class="erreur404" >
 
-  <?php get_template_part( 'template-parts/content', 'none' ); ?>
+<div class="container text-center py-5">
+ 
 <a href=""> <img src="<?= get_template_directory_uri() . './src/images/crevaison-404.png' ?>" alt="<?php bloginfo( 'name' ); ?>"></a>
+<br>
+<br>
+<p>Pas de chance !</p>
+<br>
+ <p> Cette page du site est momentanément indisponible</p>
+<p>Nous faisons de notre mieux pour résoudre le problème dans les plus brefs délais</p>
+</div><!-- .container -->
+
 </main>
+
 
 <?php get_footer() ?>

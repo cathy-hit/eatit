@@ -10,6 +10,9 @@
  *
  */
 
+ /* BLOG et CONTACT */
+
+
 get_header();
 ?>
 

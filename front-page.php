@@ -10,8 +10,12 @@
  *
  */
 
+
+ /* PAGE D'ACCUEIL */
+ /* copine : archive  */
+
 $frontrestaurants = get_posts( array(
-  'numberposts' => 5,
+  'numberposts' => 2,
   'post_type' => 'restaurant',
   'orderby' => 'rand',
 ));

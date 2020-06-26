@@ -1,6 +1,6 @@
 <?php
 /**
- * The template file for displaying single posts and pages
+ * Page restaurant : The template file for displaying single posts and pages
  *
  * ...
  *
@@ -10,18 +10,19 @@
  *
  */
 
+ 
 get_header();
 ?>
 
 <main>
-
+<div class="container">
   <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
     <?php get_template_part( 'template-parts/content', get_post_type() ); ?>
 
     <?php endwhile; 
         endif; ?>
-
+</div>
 
 </main>
 

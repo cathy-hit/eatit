@@ -8,6 +8,8 @@
  *
  */
 
+ /* BANDEAU DU BAS QUI APPELLENT TROIS RESTOS */
+
 $lastposts = get_posts( array(
   'numberposts' => 3,
   'post_type' => 'restaurant',
@@ -16,6 +18,8 @@ $lastposts = get_posts( array(
 ));
 
 ?>
+
+
 
 <section class="sidebar-lastrestaurants bg-light py-5">
 

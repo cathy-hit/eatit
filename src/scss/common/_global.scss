@@ -18,13 +18,11 @@ h2,
 .h2 {
     font-size: 1.5rem;
     color: $primary;
-    @include under_title();
 }
 
 h3:not(.h4),
 .h3 {
     font-size: 1.25rem;
-    @include under_title(30px, 3px, $dark);
 }
 
 h4,
