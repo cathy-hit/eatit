@@ -3,7 +3,7 @@
 /**
  * Template part for displaying posts
  *
- *
+ 
  * @package WordPress
  * @subpackage Startheme
  * @since 1.0.0
@@ -35,12 +35,17 @@
 
       <?php if (has_post_thumbnail()) : ?>
         <div class="col">
-          <?php the_post_thumbnail('large', array('class' => 'img-fluid')); ?>
+          <?php the_post_thumbnail('medium', array('class' => 'img-fluid')); ?>
         </div>
       <?php endif; ?>
+
+
+   
+
 
     </div><!-- .row -->
 
   </div><!-- .container -->
 
 </article>
+
